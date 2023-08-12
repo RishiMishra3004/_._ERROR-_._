@@ -5,3 +5,9 @@
           example git config --global http.proxy http://root:root@172.172.172.31:8008
         
         then use git commands as usual
+
+2. pip running with proxy server 
+        
+        pip install --proxy=http://proxyUsername:proxyPassword@proxy.server:port packagename
+        example  pip install --proxy=http://root:root@172.172.172.31:8008 numpy
+        
