@@ -11,3 +11,8 @@
         pip install --proxy=http://proxyUsername:proxyPassword@proxy.server:port packagename
         example  pip install --proxy=http://root:root@172.172.172.31:8008 numpy
         
+3. jupyter notebook with proxy
+
+        first use following command in cmd
+                set HTTPS_PROXY=http://proxyUsername:proxyPassword@proxy.server:port
+        then write jupyter notebook command in cmd
