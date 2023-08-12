@@ -1,0 +1,7 @@
+1. Git running with proxy server 
+        first configure the git using:-  
+          
+          git config --global http.proxy http://proxyUsername:proxyPassword@proxy.server:port
+          example git config --global http.proxy http://root:root@172.172.172.31:8008
+        
+        then use git commands as usual
